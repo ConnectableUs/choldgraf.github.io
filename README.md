@@ -1,6 +1,11 @@
-# Chris' personal website
+# Connectable.Us website, cloned from Chris Holdgraf's personal site configuration
 
-This is my personal website, built with Sphinx!
+This is Connectable.Us website, built with Sphinx!
+
+I'm starting by making small modification to Chris's repository here, to provide
+my own template for the four blogs described in the branches (connectable, thynken,
+yarko, ingeniere).
+
 
 ## Build and preview the docs
 
@@ -17,8 +22,11 @@ To do so, follow these steps:
    ```shell
    nox -s docs
    ```
+This should install a Sphinx environment and build the site, putting the output files in `_build/html`.
 
-this should install a Sphinx environment and build the site, putting the output files in `_build/html`.
+To view the files from the output directory, use `python -m https.server`  (will display on `localhost:8000`),
+or view live, as shown next.
+
 
 ## Execute and interact with the code
 
