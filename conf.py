@@ -5,9 +5,9 @@ sys.path.append("scripts")
 sys.path.append(".")
 from social_media import add_social_media_js, SocialPost
 
-project = "Chris Holdgraf"
-copyright = "2022, Chris Holdgraf"
-author = "Chris Holdgraf"
+project = "Connectable.Us"
+copyright = "2023, Yarko Tymciurak"
+author = "Yarko Tymciurak"
 
 extensions = [
     "myst_nb",
@@ -41,30 +41,38 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/choldgraf/",
+            "url": "https://github.com/connetable/",
             "icon": "fa-brands fa-github",
         },
         {
             "name": "Twitter",
-            "url": "https://twitter.com/choldgraf",
+            "url": "https://twitter.com/ConnectableUs",
             "icon": "fa-brands fa-twitter",
         },
         {
             "name": "Mastodon",
-            "url": "https://hachyderm.io/@choldgraf",
+            "url": "https://mastodon.social/@yarkot",
             "icon": "fa-brands fa-mastodon",
             "attributes": {"rel": "me"},
         },
         {
-            "name": "Blog RSS feed",
-            "url": "https://chrisholdgraf.com/blog/atom.xml",
-            "icon": "fa-solid fa-rss",
+            "name": "Threads",
         },
+        {
+            "name": "Facebook",
+        },
+        {
+            "name": "LinkedIn",
+        },
+        {
+            "name": "Post",
+        },
+
     ],
 }
 
 html_favicon = "_static/profile-color-circle-small.png"
-html_title = "Chris Holdgraf"
+html_title = "Connectable Us"
 html_static_path = ["_static"]
 html_extra_path = ["feed.xml"]
 html_sidebars = {
@@ -78,7 +86,7 @@ html_sidebars = {
 }
 
 # OpenGraph config
-ogp_site_url = "https://chrisholdgraf.com"
+ogp_site_url = "https://connectable.us"
 ogp_social_cards = {
     "line_color": "#4078c0",
     "image": "_static/profile-color-circle.png",
@@ -106,8 +114,8 @@ for old, new in redirect_folders.items():
 
 # -- ABlog ---------------------------------------------------
 
-blog_baseurl = "https://chrisholdgraf.com"
-blog_title = "Chris Holdgraf"
+blog_baseurl = "https://connectable.us"
+blog_title = "Connectable Us"
 blog_path = "blog"
 blog_post_pattern = "blog/*/*"
 blog_feed_fulltext = True
